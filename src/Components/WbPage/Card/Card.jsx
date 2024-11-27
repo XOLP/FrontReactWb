@@ -1,10 +1,10 @@
 import React from "react";
 
-function Card(){
+function Card(props){
     return(
         <React.Fragment>
-            <div>Карточка</div>
             
+            <div></div>
         </React.Fragment>
     )
 }

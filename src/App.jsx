@@ -1,13 +1,10 @@
 import './App.css';
-
-import Header from './Components/Header/Header'; // Имопрт хедера
-import Footer from './Components/Footer/Footer'; // Импорт футера
+import WbPage from './Components/WbPage/WbPage';
 
 function App() {
   return (
     <div id='root'>
-      <Header/>
-      <Footer/>
+      <WbPage></WbPage>
     </div>
    
   );
