@@ -6,13 +6,16 @@ import ViewCards from "./ViewCards/ViewCards";
 import DescriptionBlock from "./DescriptionBlock/DescriptionBlock";
 import "./WbPage.css"
 
+
+
 function WbPage(){
     return(
         <React.Fragment>
-            <div>
-            
             <Header/>
+            <div className="mp">
             
+           
+        
             <DescriptionBlock/>
             
             <InputBlock/>

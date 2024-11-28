@@ -1,4 +1,5 @@
 import React from "react";
+import "./Card.css"
 function getCard(data){
     let cardMap = new Map()
     cardMap.set("Name",data.Name)
@@ -20,6 +21,7 @@ function Card(props){
             <div>{mp.get("Price")}</div>
             <div>{mp.get("Points")}</div>
             <div>{mp.get("Url")}</div>
+            
         </React.Fragment>
     )
 }
