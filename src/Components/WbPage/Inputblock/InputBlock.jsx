@@ -36,3 +36,4 @@ function InputBlock(){
     )
 }
 export default InputBlock
+// норм кнопка сделать переход плавный, сделать поискеовые строки больше, сдохнуть 
